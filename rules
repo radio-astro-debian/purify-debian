@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+export DH_VERBOSE=1
+
+%:
+	dh $@ --parallel --buildsystem=cmake --with-python
+
+override_dh_clean:
+	dh_clean
+	rm -rf data/test/test_dirty.fits
+	rm -rf data/test/test_rec.fits
