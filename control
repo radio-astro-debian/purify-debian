@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Gijs Molenaar (launchpad ppa build key) <gijs@pythonic.nl>
 Build-Depends: debhelper (>= 8.0.0), cmake, greatcmakecookoff, libfftw3-dev,
  libtiff5-dev, libblas-dev, libpython2.7-dev, cython, sopt, libccfits-dev,
- python-numpy, python-pandas, python-pytest
+ python-numpy, python-pandas, python-pytest, python-scipy
 Standards-Version: 3.9.4
 Homepage: https://github.com/astro-informatics/purify
 
